@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Poppins:wght@400;500;600;900&family=Roboto+Slab:wght@400;500;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  overflow: unset;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 1rem;
+  align-items: center;
+}
+nav .logo {
+  margin-left: 3.5rem;
+  font-size: 37px;
+  color: rgb(48, 38, 38);
+  font-weight: bold;
+  font-family: "Mouse Memoirs", sans-serif;
+}
+nav .nav-list {
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+}
+nav .nav-list a {
+  color: black;
+  text-decoration: none;
+}
+nav .nav-list a :hover {
+  text-decoration: underline;
+  color: brown;
+  transition: 0.2s all ease-in-out;
+}
+nav .nav-list li {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+nav .right-nav {
+  margin-right: 2.2rem;
+}
+nav .right-nav .cart i {
+  font-size: 1.3rem;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 3vw;
+  margin-top: 1rem;
+}
+header .right-header {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+header .right-header img {
+  margin-right: 7vw;
+  margin-left: 2rem;
+}
+header .left-header {
+  padding-left: 5vw;
+  padding-right: 4vw;
+}
+header .left-header .heading-text {
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: "Roboto Slab", serif;
+}
+header .left-header .description-text {
+  font-size: 19px;
+  opacity: 0.65;
+  margin-bottom: 1.4rem;
+}
+header .left-header .brand-heading {
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+header .left-header .brand-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+header .left-header .brand-logos img {
+  color: black;
+  margin: 15px;
+  height: 30px;
+}
+
+.products-section {
+  padding-top: 3rem;
+}
+.products-section .products {
+  margin: 3rem 3vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.products-section .products .product {
+  min-width: 280px;
+  width: 20%;
+  margin: auto 2rem 2.5rem;
+}
+.products-section .products .product .product-text {
+  padding: 15px;
+}
+.products-section .products .product img {
+  width: 100%;
+  height: 240px;
+}
+.products-section .products .product .product-heading {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  font-size: 18px;
+}
+.products-section .products .product .description .brands {
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+.contact {
+  background-color: whitesmoke;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.contact .map {
+  width: 70vw;
+  margin: 2rem auto;
+  display: block;
+}
+.contact .mobile-number {
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+footer {
+  padding: 12px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  background-color: rgb(164, 76, 65);
+}
+
+@media (max-width: 1420px) {
+  header .left-header .heading-text {
+    font-size: 40px;
+  }
+  header .left-header .description-text {
+    font-size: 18px;
+  }
+  header .left-header .brand-logos img {
+    height: 22px;
+  }
+}
+@media (max-width: 1250px) {
+  header .left-header .heading-text {
+    font-size: 36px;
+  }
+  header .left-header .description-text {
+    font-size: 17px;
+  }
+  header .left-header .brand-logos img {
+    height: 20px;
+  }
+}
+@media (max-width: 1172px) {
+  header .left-header {
+    padding-left: 2rem;
+    align-items: unset;
+  }
+  header .left-header .heading-text {
+    font-size: 30px;
+  }
+  header .left-header .description-text {
+    font-size: 14px;
+  }
+  header .left-header .brand-heading {
+    display: none;
+  }
+  header .right-header img {
+    margin-right: 2rem;
+  }
+}/*# sourceMappingURL=style.css.map */
